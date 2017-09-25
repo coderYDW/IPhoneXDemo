@@ -17,6 +17,8 @@
 		1804FAB41F74E4E600BF039C /* IPhoneXDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FAB31F74E4E600BF039C /* IPhoneXDemoUITests.m */; };
 		1804FAC41F74EAD700BF039C /* DYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FAC31F74EAD700BF039C /* DYTableViewController.m */; };
 		1804FAC71F74F87400BF039C /* DYTableViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FAC61F74F87400BF039C /* DYTableViewTwoController.m */; };
+		1804FACB1F78927B00BF039C /* DYNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FACA1F78927B00BF039C /* DYNavViewController.m */; };
+		1804FACF1F7897FC00BF039C /* DYOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804FACE1F7897FC00BF039C /* DYOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		1804FAC31F74EAD700BF039C /* DYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTableViewController.m; sourceTree = "<group>"; };
 		1804FAC51F74F87400BF039C /* DYTableViewTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTableViewTwoController.h; sourceTree = "<group>"; };
 		1804FAC61F74F87400BF039C /* DYTableViewTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTableViewTwoController.m; sourceTree = "<group>"; };
+		1804FAC91F78927B00BF039C /* DYNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYNavViewController.h; sourceTree = "<group>"; };
+		1804FACA1F78927B00BF039C /* DYNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYNavViewController.m; sourceTree = "<group>"; };
+		1804FACD1F7897FC00BF039C /* DYOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYOneViewController.h; sourceTree = "<group>"; };
+		1804FACE1F7897FC00BF039C /* DYOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 		1804FA8E1F74E4E600BF039C /* IPhoneXDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1804FACC1F7897D700BF039C /* ViewController */,
+				1804FAC81F78925000BF039C /* Nav */,
 				1804FAC11F74E9A800BF039C /* TableView */,
 				1804FA8F1F74E4E600BF039C /* AppDelegate.h */,
 				1804FA901F74E4E600BF039C /* AppDelegate.m */,
@@ -148,6 +156,24 @@
 				1804FAC61F74F87400BF039C /* DYTableViewTwoController.m */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		1804FAC81F78925000BF039C /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				1804FAC91F78927B00BF039C /* DYNavViewController.h */,
+				1804FACA1F78927B00BF039C /* DYNavViewController.m */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		1804FACC1F7897D700BF039C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1804FACD1F7897FC00BF039C /* DYOneViewController.h */,
+				1804FACE1F7897FC00BF039C /* DYOneViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +313,9 @@
 				1804FA941F74E4E600BF039C /* ViewController.m in Sources */,
 				1804FA9F1F74E4E600BF039C /* main.m in Sources */,
 				1804FAC41F74EAD700BF039C /* DYTableViewController.m in Sources */,
+				1804FACF1F7897FC00BF039C /* DYOneViewController.m in Sources */,
 				1804FA911F74E4E600BF039C /* AppDelegate.m in Sources */,
+				1804FACB1F78927B00BF039C /* DYNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,8 @@
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"tableView"];
     self.tableView.insetsContentViewsToSafeArea = NO;
-    self.tableView.insetsLayoutMarginsFromSafeArea = NO;
+
+    self.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
 }
 
 #pragma mark - Table view data source
