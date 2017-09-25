@@ -20,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.additionalSafeAreaInsets = UIEdgeInsetsMake(45, 0, 100, 0);
+//    self.additionalSafeAreaInsets = UIEdgeInsetsMake(45, 0, 100, 0);
+    
+    //self.view.directionalLayoutMargins = NSDirectionalEdgeInsetsMake(50, 20, 100, 20);
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView = tableView;
@@ -40,14 +42,10 @@
     
 }
 
-- (IBAction)pushSearchViewController:(id)sender {
-}
-
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
-    //self.tableView.contentInset = self.view.safeAreaInsets;
-    
+    NSLog(@"%s", __FUNCTION__);
 }
 
 #pragma mark - 数据源方法

@@ -122,11 +122,7 @@
             <objects>
                 <viewController id="ede-IR-BTH" customClass="DYTableViewTwoController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="tableViewTwo" id="jQe-DZ-gl2">
-                        <barButtonItem key="rightBarButtonItem" title="search" id="SIv-Rg-LVw">
-                            <connections>
-                                <action selector="pushSearchViewController:" destination="ede-IR-BTH" id="ibg-hx-rmQ"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="search" id="SIv-Rg-LVw"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dv3-5k-Uvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -209,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="105.66502463054188"/>
+            <point key="canvasLocation" x="1072" y="107"/>
         </scene>
         <!--Right-->
         <scene sceneID="J09-ef-yj6">
